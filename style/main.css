@@ -1,0 +1,92 @@
+﻿body { 
+	margin: 0;
+	background-color:#f4f4f4;
+	font-family:"Courier New", Courier, monospace;
+	font-size:100%; 
+	color:#111111;
+}
+
+h1 {
+	font-size:300%;
+	text-align:center;
+	margin:80px 0 0 0;
+	padding:0;
+	font-weight:normal;	
+}
+@media only screen and (max-width: 640px) {
+	h1 {
+		font-size:250%;
+	}
+}
+
+
+p {
+	padding:0;
+	margin: 40px 0 40px 0;
+}
+#main {
+	width:90%;
+	max-width:590px;
+	margin: auto;
+	margin-top:40px;
+	text-align:center;
+	font-size: 110%;
+}
+
+#icons a {
+	text-decoration: none;	
+}
+
+
+.icon {
+	width:80px;
+	height:80px;
+}
+.shape{
+	opacity: 1;
+	fill: rgb(0, 176, 237);
+}
+.shapeLi{ fill: rgb(9, 119, 181); }
+
+#icons a:hover .shape {
+	fill: rgb(17, 17, 17); 	
+}
+
+#cursor {
+	-webkit-animation: blinking 1.5s linear 0s infinite;
+  	-moz-animation: blinking 1.5s linear 0s infinite;
+  	-ms-animation: blinking 1.5s linear 0s infinite;
+  	-o-animation: blinking 1.5s linear 0s infinite;	
+}
+
+@-webkit-keyframes blinking {
+  0%   { color: #111111}
+  47%  { color: #333333}
+  50%  { color: #f4f4f4}
+  97%  { color: #f4f4f4}
+  100% { color: #333333}
+}
+ 
+@-moz-keyframes blinking {
+  0%   { color: #111111}
+  47%  { color: #333333}
+  50%  { color: #f4f4f4}
+  97%  { color: #f4f4f4}
+  100% { color: #333333}
+}
+ 
+@-ms-keyframes blinking {
+  0%   { color: #111111}
+  47%  { color: #333333}
+  50%  { color: #f4f4f4}
+  97%  { color: #f4f4f4}
+  100% { color: #333333}
+}
+ 
+@-o-keyframes blinking {
+  0%   { color: #111111}
+  47%  { color: #333333}
+  50%  { color: #f4f4f4}
+  97%  { color: #f4f4f4}
+  100% { color: #333333}
+}
